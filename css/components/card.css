@@ -1,0 +1,65 @@
+.card{
+	width:430px;
+	height:140px;
+	padding: 20px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 0px;
+	flex-direction: row
+	flex-wrap:wrap;
+
+}
+
+.card img{
+	width:150px;
+	height:150px;
+	border-radius:6px;
+	object-fit: cover;
+}
+
+.card h3{
+	text-align: center;
+	flex-grow: 1;
+	font-size:20px;
+	margin-left: 10px;
+}
+
+.children {
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	position: relative;
+	top: 40px;
+}
+.villes{
+	flex-wrap:wrap;
+	display:flex;
+	justify-content:center;
+	position: relative;
+	top: 50px;
+}
+
+.villes img{
+ 	width:120px;
+ 	height:120px;
+ 	border-radius:6px;
+ 	object-fit:cover;
+}
+.villes p {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+
+}
+.villes img:hover {
+	width:123px;
+	height:123px;
+	opacity: 0.7;
+
+}
+.villes figure{
+
+}

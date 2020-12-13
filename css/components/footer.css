@@ -1,0 +1,27 @@
+.footer{
+	list-style :none;
+	padding-left: 0px;
+	text-align:center;
+	color:rgb(252, 58, 113);
+}
+.footer li{
+	text-decoration: none;
+	display:inline;
+	padding:30px;
+	font-size :15px;
+	font-family: 'Open Sans',sans-serif;
+}
+
+.foot > li:nth-child(1) > a:nth-child(1) {
+ color: grey;
+}
+
+.foot > li:nth-child(2) > a:nth-child(1) {
+ color: grey;
+}
+
+.foot > li:nth-child(3) > a:nth-child(1) {
+ color: grey;
+}
+
+

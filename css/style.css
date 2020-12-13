@@ -1,0 +1,75 @@
+/*Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Quicksand:wght@400;500;600&display=swap")
+/*Importing all components file */
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/button.css");
+/*General style rules for fonts and colors */
+body{
+	font-family: 'Quicksand',sans-serif;
+	font-size: 17px;
+	line-height: 28px;
+	font-weight:lighter;
+	margin:0px;
+	overflow-x: hidden;
+}
+h1,h2,h3 {
+	font-family:'Open Sans',sans-serif;
+	font-weight:bold;
+	font-size :27px;
+	margin:30px;
+	margin-left: 300px;
+}
+
+div.container:nth-child(2) > h1:nth-child(1) {
+	position: relative;
+	top: 50px;
+	right: 243px;
+}
+
+div.container:nth-child(2) > h2:nth-child(3) {
+ 	position: relative;
+ 	top: 50px;
+ 	right: 243px;
+}
+
+div.container:nth-child(2) > h2:nth-child(5) {
+ position: relative;
+ top: 50px;
+ right: 243px;
+}
+
+div.container:nth-child(2) > p:nth-child(6) {
+ position: relative;
+ top: 50px;
+ padding-bottom: 130px;
+ padding-left: 30px;
+}
+
+a{
+	text-decoration: none;
+	font-family :'Open Sans', sans-serif;
+	margin:20px;
+}
+.list-inline{
+	list-style :none;
+	padding-left: 0px;
+	text-align:center;
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color:rgb(252, 58, 113);
+}
+.list-inline i:hover{
+	color:black;
+}
+
+a{
+	text-decoration: none;
+}
